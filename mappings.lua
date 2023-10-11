@@ -2,7 +2,7 @@ local M = {}
 
 M.copilot = {
   i = {
-    ["<C-l>"] = {
+    ["<C-o>"] = {
       function()
         vim.fn.feedkeys(vim.fn['copilot#Accept'](), '')
       end,
@@ -27,5 +27,6 @@ M.dap = {
     },
   }
 }
+
 
 return M
