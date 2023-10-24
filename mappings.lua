@@ -40,4 +40,17 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz', { noremap=true, silent=true })
 -- vim.keymap.set('n', '<C-0>', 'ciw"<C-r>-"', { noremap=true, silent=true })
 vim.keymap.set('n', '<leader>P', "\"_dP", { noremap=true, silent=true })
 
+M.gitsigns = {
+  plugin = true,
+
+  n = {
+    -- Navigation through hunks
+    ["<leader>gs"] = {
+      function()
+        package.loaded.gitsigns.stage_hunk()
+      end,
+      "Stage hunk",
+    },
+  }
+}
 return M
