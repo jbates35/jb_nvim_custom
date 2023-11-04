@@ -90,7 +90,9 @@ local plugins = {
         "clang-format",
         "codelldb",
         "cmake-language-server",
-        "python-lsp-server",
+        "mypy",
+        "ruff",
+        "pyright"
       }
     }
   }
