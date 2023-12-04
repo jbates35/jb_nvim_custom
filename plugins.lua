@@ -92,34 +92,10 @@ local plugins = {
         "cmake-language-server",
         "mypy",
         "ruff",
-        "pyright"
+        "pyright",
+        "black"
       }
     }
   }
-},
-
-{
-  "nvim-treesitter/nvim-treesitter",
-  opts = {
-    ensure_installed = {
-      "bash",
-      "c",
-      "cmake",
-      "cpp",
-      "css",
-      "html",
-      "javascript",
-      "json",
-      "lua",
-      "python",
-      "regex",
-      "rust",
-      "tsx",
-      "typescript",
-      "yaml",
-      "vim"
-    },
-  },
 }
-
 return plugins
