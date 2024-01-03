@@ -1,4 +1,10 @@
 local plugins = {
+  -- {
+  --   "neoclide/coc.nvim",
+  --   branch = "release",
+  --   event = "VeryLazy",
+  -- },
+
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
@@ -90,7 +96,7 @@ local plugins = {
         "clang-format",
         "codelldb",
         "cmake-language-server",
-        "mypy",
+        -- "mypy",
         "ruff",
         "pyright",
         "black"
