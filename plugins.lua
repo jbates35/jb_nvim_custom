@@ -99,6 +99,7 @@ local plugins = {
         -- "mypy",
         "ruff",
         "pyright",
+        "prettier",
         "black"
       }
     }
