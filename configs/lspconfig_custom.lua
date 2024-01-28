@@ -17,3 +17,17 @@ lspconfig.pyright.setup({
   capabilities = capabilities,
   filetypes = { "python" },
 })
+
+lspconfig.tsserver.setup {
+  on_attach = function(client)
+    client.resolved_capabilities.document_formatting = false
+    on_attach(client)
+  end,
+  capabilities = capabilities,
+  init_options =  {
+    preferences  = {
+      disableSuggestions = true
+    }
+  }
+}
+
