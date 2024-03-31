@@ -100,7 +100,7 @@ local plugins = {
         "ruff",
         "pyright",
         "prettier",
-        "black",
+        "autopep8",
         "djlint",
         "typescript-language-server",
       }
